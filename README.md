@@ -32,7 +32,7 @@ jako puno vremena dok se ona obradi i učita u Python Dictionary. Da ne bi morao
 prilikom pokretanja programa stvarati novi dictionary, koristio sam „pickleziranje“, odnosno
 spremanje objekata u datoteku te ih kasnije učitavanje iz datoteke.
 
- ## NAPOMENA: Da bi program radio potrebno je skinuti Vector_dict.txt (pickleziranu verziju dictionarya i staviti u korijenski direktorij. Vector_dict.txt se može skinuti sa: dropboxlink) Ulazna točka programa nalazi se u datoteci Program.py
+ ## NAPOMENA: Da bi program radio potrebno je skinuti Vector_dict.txt (tj. pickleziranu verziju dictionarya i staviti u korijenski direktorij, Vector_dict.txt se može skinuti sa: {Link će biti dodan naknadno}). Ulazna točka programa nalazi se u datoteci Program.py (potrebne biblioteke za pokretanje programa su scipy stack https://www.scipy.org/install.html )
 
 Nakon što sam napokon vektorizirao komentare i spremio ih u datoteku, mogao sam krenuti s učenjem modela. Za učenje modela i svu potrebnu logiku strojnog učenja koristio sam biblioteku „sklearn“.
 Komentare sam učitao u matricu dimenzije 2000x300, a vrijednosti klasa u transponirani vektor
